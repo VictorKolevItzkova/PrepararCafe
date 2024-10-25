@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAFE NET</title>
+	<style>
+		body{
+			background-color:#CCCC66;
+		}
+		header{
+			width: 100%;
+		}
+		iframe{
+			height: 100%;
+			width: 100%;
+		}
+		#container{
+			display: flex;
+			min-height: 80vH;
+		}
+		div#ladoIzq{
+			width: 15%;
+			height: 100%;
+		}
+		div#ladoDrc{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="./img/logo.gif" alt="Logo">
+		<img src="./img/banner.gif" alt="Banner">
+	</header>
+	<main id="container">
+		<div id="ladoIzq">
+			<ul>
+				<li>
+					<a href="./HTML/inicial.html" target="framePrincipal">
+						Inicio
+					</a>
+				</li>
+				<li>
+					<a href="./HTML/cultivo.html" target="framePrincipal">
+						Cultivo
+					</a>
+				</li>
+				<li>
+					<a href="./HTML/tipos.html" target="framePrincipal">
+						Tipos
+					</a>
+				</li>
+				<li>
+					<a href="./HTML/preparacion.html" target="framePrincipal">
+						Preparación
+					</a>
+				</li>
+				<li>
+					<a href="./HTML/contacto.html" target="framePrincipal">
+						Contacto
+					</a>
+				</li>
+			</ul>
+			<img src="./img/fotos.png" alt="Conjunto Fotos">
+		</div>
+		<div id="ladoDrc">
+			<iframe src="./HTML/inicial.html" name="framePrincipal"></iframe>
+		</div>
+	</main>
+</body>
+</html>
